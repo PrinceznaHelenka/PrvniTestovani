@@ -8,7 +8,7 @@ import org.junit.Test;
 public class testovaniJmena {
     @Test
     public void TestJmena() {
-        Assert.assertEquals("Je to špatně!", "Ahoj Helenko Havelková", jmena.pozdrav("Helenko", "Havelková"));
+        Assert.assertEquals("Je to špatně!", "Helenko Havelková", jmena.pozdrav("Helenko", "Havelková"));
     }
     @Test
     public void FailujiciTestJmena() {

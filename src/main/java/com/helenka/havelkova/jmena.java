@@ -5,7 +5,7 @@ package com.helenka.havelkova;
  */
 public class jmena {
     public static void main(String[] args) {
-            System.out.println("\n Ahoj, " +pozdrav(String.valueOf(args[0]),String.valueOf(args[1]))+"! \n\n");
+            System.out.println("\nAhoj " +pozdrav(String.valueOf(args[0]),String.valueOf(args[1]))+"! \n\n");
         }
 
     public static String pozdrav(String jmeno, String prijmeni) {
