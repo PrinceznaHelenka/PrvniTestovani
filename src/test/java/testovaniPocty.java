@@ -7,20 +7,23 @@ import org.junit.Test;
  */
 public class testovaniPocty {
     @Test
-    public void testScitani() {
-        Assert.assertEquals("Je to spatne!", 10, pocty.scitani(1,5));
-    }
+    public void TestScitani() { Assert.assertEquals("Je to spatne!", 10, pocty.scitani(5,5));}
     @Test
-    public void testOdecitani() {
+    public void TestOdecitani() {
         Assert.assertEquals("Je to spatne!", 10, pocty.odecitani(15,5));
     }
     @Test
-    public void testNasobeni() {
-        Assert.assertEquals("Je to spatne!", 10, pocty.odecitani(2,5));
+    public void TestNasobeni() {
+        Assert.assertEquals("Je to spatne!", 10, pocty.nasobeni(2,5));
     }
     @Test
-    public void testDeleni() {
-        Assert.assertEquals("Je to spatne!", 10, pocty.odecitani(50,5));
+    public void FailujiciTest() {
+        Assert.assertEquals("Je to spatne!", 15, pocty.nasobeni(2,5));
+    }
+
+        @Test
+    public void TestDeleni() {
+        Assert.assertEquals("Je to spatne!", 10, pocty.deleni(50,5));
     }
 
 }
