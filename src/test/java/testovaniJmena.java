@@ -7,7 +7,11 @@ import org.junit.Test;
  */
 public class testovaniJmena {
     @Test
-    public void testJmena() {
+    public void TestJmena() {
         Assert.assertEquals("Je to špatně!", "Ahoj Helenko Havelková", jmena.pozdrav("Helenko", "Havelková"));
+    }
+    @Test
+    public void FailujiciTestJmena() {
+        Assert.assertEquals("Je to špatně!", "Ahoj Helenko Havelková", jmena.pozdrav("H", "H"));
     }
 }

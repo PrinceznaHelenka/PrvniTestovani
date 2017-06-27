@@ -38,7 +38,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.helenka.havelkova.pocty</mainClass>
+                            <mainClass>com.helenka.havelkova.jmena</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
