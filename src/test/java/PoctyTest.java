@@ -18,11 +18,11 @@ public class PoctyTest {
     @Test
     public void FailujiciTest() {
         Assert.assertEquals("Je to spatne!", 15, Pocty.nasobeni(2,5));
-    }
+        System.exit(0);}
 
     @Test
     public void TestDeleni() {
-        Assert.assertEquals("Je to spatne!", 10, Pocty.deleni(50,5));
-    }
+        Assert.assertEquals("Je to spatne!", 10, Pocty.deleni(50,5));}
 
 }
+

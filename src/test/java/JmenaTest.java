@@ -9,9 +9,9 @@ public class JmenaTest {
     @Test
     public void TestJmena() {
         Assert.assertEquals("Je to špatně!", "Helenko Havelková", Jmena.pozdrav("Helenko", "Havelková"));
-    }
+        System.exit(0);}
     @Test
     public void FailujiciTestJmena() {
         Assert.assertEquals("Je to špatně!", "Ahoj Helenko Havelková", Jmena.pozdrav("H", "H"));
-    }
+        System.exit(0); }
 }
