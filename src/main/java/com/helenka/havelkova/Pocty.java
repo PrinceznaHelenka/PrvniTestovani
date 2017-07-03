@@ -3,7 +3,7 @@ package com.helenka.havelkova;
 /**
  * Created by helena on 21.6.17.
  */
-public class pocty {
+public class Pocty {
 
     public static void main (String[] args) {
         System.out.println(" Vysledek po souctu je " +scitani(Integer.valueOf(args[2]),Integer.valueOf(args[3])) +

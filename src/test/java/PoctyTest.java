@@ -1,4 +1,4 @@
-import com.helenka.havelkova.pocty;
+import com.helenka.havelkova.Pocty;
 import org.junit.Assert;
 import org.junit.Test;
 //import org.junit.jupiter.api.*;
@@ -6,23 +6,23 @@ import org.junit.Test;
 /**
  * Created by helena on 21.6.17.
  */
-public class poctyTest {
+public class PoctyTest {
     @Test
-    public void TestScitani() { Assert.assertEquals("Je to spatne!", 10, pocty.scitani(5,5));}
+    public void TestScitani() { Assert.assertEquals("Je to spatne!", 10, Pocty.scitani(5,5));}
     @Test
     public void TestOdecitani() {
-        Assert.assertEquals("Je to spatne!", 10, pocty.odecitani(15,5));
+        Assert.assertEquals("Je to spatne!", 10, Pocty.odecitani(15,5));
     }
     @Test
-    public void TestNasobeni() {Assert.assertEquals("Je to spatne!", 10, pocty.nasobeni(2,5));}
+    public void TestNasobeni() {Assert.assertEquals("Je to spatne!", 10, Pocty.nasobeni(2,5));}
     @Test
     public void FailujiciTest() {
-        Assert.assertEquals("Je to spatne!", 15, pocty.nasobeni(2,5));
+        Assert.assertEquals("Je to spatne!", 15, Pocty.nasobeni(2,5));
     }
 
     @Test
     public void TestDeleni() {
-        Assert.assertEquals("Je to spatne!", 10, pocty.deleni(50,5));
+        Assert.assertEquals("Je to spatne!", 10, Pocty.deleni(50,5));
     }
 
 }

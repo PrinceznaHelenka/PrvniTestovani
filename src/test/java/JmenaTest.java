@@ -1,17 +1,17 @@
-import com.helenka.havelkova.jmena;
+import com.helenka.havelkova.Jmena;
 import org.junit.Assert;
 import org.junit.Test;
 
 /**
  * Created by helena on 25.6.17.
  */
-public class jmenaTest {
+public class JmenaTest {
     @Test
     public void TestJmena() {
-        Assert.assertEquals("Je to špatně!", "Helenko Havelková", jmena.pozdrav("Helenko", "Havelková"));
+        Assert.assertEquals("Je to špatně!", "Helenko Havelková", Jmena.pozdrav("Helenko", "Havelková"));
     }
     @Test
     public void FailujiciTestJmena() {
-        Assert.assertEquals("Je to špatně!", "Ahoj Helenko Havelková", jmena.pozdrav("H", "H"));
+        Assert.assertEquals("Je to špatně!", "Ahoj Helenko Havelková", Jmena.pozdrav("H", "H"));
     }
 }

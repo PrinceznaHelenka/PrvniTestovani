@@ -15,7 +15,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.helenka.havelkova.jmena</mainClass>
+                            <mainClass>com.helenka.havelkova.Jmena</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
@@ -38,7 +38,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.helenka.havelkova.jmena</mainClass>
+                            <mainClass>com.helenka.havelkova.Jmena</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
