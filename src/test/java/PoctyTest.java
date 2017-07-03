@@ -6,7 +6,7 @@ import org.junit.Test;
 /**
  * Created by helena on 21.6.17.
  */
-public class testovaniPocty {
+public class poctyTest {
     @Test
     public void TestScitani() { Assert.assertEquals("Je to spatne!", 10, pocty.scitani(5,5));}
     @Test

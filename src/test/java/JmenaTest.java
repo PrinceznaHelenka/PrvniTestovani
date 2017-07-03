@@ -5,7 +5,7 @@ import org.junit.Test;
 /**
  * Created by helena on 25.6.17.
  */
-public class testovaniJmena {
+public class jmenaTest {
     @Test
     public void TestJmena() {
         Assert.assertEquals("Je to špatně!", "Helenko Havelková", jmena.pozdrav("Helenko", "Havelková"));
